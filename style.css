@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.container{
+    width: 30%;
+    margin: 0px auto;
+}
+.container p{
+    margin: 30% 0px 0px;
+    text-align: center;
+}
+#calender{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px rgb(255 255 255), 0.03em 0.03em 1em rgb(0 0 0 / 30%);
+    width: 100%;
+    margin-top: 20px;
+}
+#calender thead{
+    height: 30px;
+}
+#calender tbody{
+    height: 200px;
+}
+td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+*:focus{
+    outline: none;
+}
+input{
+    border: none;
+    box-shadow: 0 0 0 2px rgb(255 255 255), 0.03em 0.03em 1em rgb(0 0 0 / 30%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgba(33, 59, 207, 0.333);
+    margin-left: 5px;
+
+}
